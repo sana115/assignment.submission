@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+ }
+ .hello{
+     height: 100vh; 
+     width: 100%;
+     background-image: url(./yoga.jpg);
+     background-size:cover;
+     background-position:center center;
+     background-repeat: no-repeat ;
+     /* background-attachment: fixed; */
+ }
+ .nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left:5%;
+    padding-right: 5%;
+}
+
+
+.logo{
+    color: rgb(46 ,78 ,136);
+    font-size: 70px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-left: 250px;
+}
+ul li{
+    display: inline-block;
+    padding:10px 20px;
+}
+
+ul li a{
+    color: rgb(115, 88 ,59);
+    text-decoration: underline;
+}
+ul li a:hover{
+    color: #380616;
+}
+.content{
+    position: absolute;
+    top: 50%;
+   right: 8%;
+}
+p{
+   text-align:center;
+ text-shadow: 1px 1px burlywood;
+ color: black;
+ font-size: 20px;
+ font-family: cursive;
+ font-style: italic;
+}
+h1{
+    text-shadow: 1px 1px #e49836;
+ color: #0a0733;
+    font-style: italic;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
